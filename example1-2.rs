@@ -23,14 +23,13 @@ fn main () {
     // let pi = format!("{:.*}", 3, 22/7);
     //println!("Pi is roughly {}", format!("{:.*}", 3, 22/7));
 
-    // let pi: i32 = 22 / 7;
-    // println!("Pi is roughly {:.3}", 22 / 7 as i32);
+
+    let pi = 22.0 / 7.0;
+    println!("Pi is roughly {:.*}", 3, pi);
 
     // Fuck wtf
 
     // let pi = format!("{:.*}", 3, 22/7);
     // assert_eq!("3.143", pi);
-
-    println!("PI is roughly {:.3}", 22/7);
 
 }
